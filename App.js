@@ -25,8 +25,8 @@ export default function App() {
     text = errorMsg;
   } else if (location) {
     text = [
-      "緯度だよ" + JSON.stringify(location.coords.latitude),
-      "経度だよ" + JSON.stringify(location.coords.longitude),
+      "緯度" + JSON.stringify(location.coords.latitude),
+      "経度" + JSON.stringify(location.coords.longitude),
     ].join("\n");
     // "緯度" +
     // JSON.stringify(location.coords.latitude) +
